@@ -22,6 +22,8 @@ Choose where to install ansbile, it can be either from your:
 
 # To test connection to the hosts
 
+Update the IP address in the hosts file
+
 ```
 ansible kp_devops -i hosts -m ping
 ```
