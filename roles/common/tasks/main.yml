@@ -1,7 +1,7 @@
 # Install telnet, curl and nslookup
 - name: install telnet and curl
   yum: 
-    name: ['telnet', 'curl', 'bind-utils'] 
+    name: ['telnet', 'curl', 'bind-utils', 'firewalld'] 
     state: present
 
 # Install Oracle JDK
