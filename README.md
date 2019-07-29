@@ -33,29 +33,29 @@ ansible kp_devops -i hosts -m ping
 Apache:
 
 ```
-ansible-playboog -i hosts apache.yml
+ansible-playbook -i hosts apache.yml
 ```
 
 Mysql:
 
 ```
-ansible-playboog -i hosts mysqlyml
+ansible-playbook -i hosts mysqlyml
 ```
 
 Tomcat:
 
 ```
-ansible-playboog -i hosts tomcar.yml
+ansible-playbook -i hosts tomcar.yml
 ```
 
 Common (curl,telnet,Oracle JDK and Nslookup):
 
 ```
-ansible-playboog -i hosts common.yml
+ansible-playbook -i hosts common.yml
 ```
 
 # Single Step Configuration
 
 ```
-ansible-playboog -i hosts site.yml
+ansible-playbook -i hosts site.yml
 ```
