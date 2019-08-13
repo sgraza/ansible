@@ -39,13 +39,13 @@ ansible-playbook -i hosts apache.yml
 Mysql:
 
 ```
-ansible-playbook -i hosts mysqlyml
+ansible-playbook -i hosts mysql.yml
 ```
 
 Tomcat:
 
 ```
-ansible-playbook -i hosts tomcar.yml
+ansible-playbook -i hosts tomcat.yml
 ```
 
 Common (curl,telnet,Oracle JDK and Nslookup):
